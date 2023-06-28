@@ -1,7 +1,7 @@
 mode = input("Enter mode type (player or editor):").lower()
 while mode != "editor" and mode != "player":
     mode = input("Enter mode type (player or editor):").lower()
-words = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grapefruit', 'honeydew']
+words = ['apple', 'banana', 'cherry', 'date','hello']
 if mode == "editor":
     while True:                         
         print("Current list:",words)         #current list  
